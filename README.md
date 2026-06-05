@@ -170,6 +170,6 @@ original purchaser only; it may not be shared, re-uploaded, or resold.
 
 **Made by THIBLOOTN**
 
-[Get access](#how-to-get-it) · [Discord](#) · [Report an issue](../../issues)
+[Get access](#how-to-get-it) · [Discord](https://github.com/THIBLOOTN/eup-converter/blob/main/README.md#how-to-get-it) · [Report an issue](../../issues)
 
 </div>
