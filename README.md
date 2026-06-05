@@ -54,7 +54,9 @@ FiveM resource you can drop straight into your server.
 
 ## Screenshots
 
-> *Add your own screenshots here — drag images into the GitHub editor.*
+> <img width="926" height="833" alt="image" src="https://github.com/user-attachments/assets/f362b2cc-c9c1-470a-b954-a5782b509adf" />
+
+
 
 | Main window | Conversion results |
 |-------------|--------------------|
@@ -164,11 +166,11 @@ or resold. See [`LICENSE.txt`](LICENSE.txt) for full terms.
 
 > *Add your support channel here.*
 
-- Discord: `[your invite link]`
-- Purchase: `[your Tebex / store link]`
+- Discord: `https://discord.gg/tyeMdy7J6`
+- Purchase: `make a ticket in the discord`
 
 <div align="center">
 
-**Made by [YOUR NAME / WV Roleplay]**
+**Made by T H I B L O O T N **
 
 </div>
