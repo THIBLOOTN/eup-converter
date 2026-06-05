@@ -4,12 +4,13 @@
 
 ### Turn GTA 5 EUP & clothing mods into ready-to-use FiveM resources — in seconds.
 
-![Version](https://img.shields.io/badge/version-3.0.0-ffb000)
+![Version](https://img.shields.io/badge/version-1.0.8-ffb000)
 ![Platform](https://img.shields.io/badge/platform-Windows-0d1014)
-![Framework](https://img.shields.io/badge/FiveM-ESX%20%7C%20QB%20%7C%20standalone-39d98a)
-![License](https://img.shields.io/badge/license-proprietary-ff5d5d)
+![FiveM](https://img.shields.io/badge/FiveM-ESX%20%7C%20QB%20%7C%20standalone-39d98a)
+![Updates](https://img.shields.io/badge/updates-automatic-39d98a)
+![License](https://img.shields.io/badge/license-activation%20required-ff5d5d)
 
-*Drag your extracted clothing folder in. Click one button. Get a server-ready resource out.*
+*Drop your extracted clothing folder in. Click one button. Get a server-ready resource out.*
 
 </div>
 
@@ -17,19 +18,18 @@
 
 ## What is EUP Converter?
 
-Bringing GTA 5 uniform and clothing mods into FiveM is a tedious, error-prone job:
-every `.ydd` and `.ytd` file has to be renamed by hand to the exact FiveM stream
-format, sorted into the right folders, and wrapped in a working resource. One typo
-and the uniform simply won't load in-game.
+Bringing GTA 5 uniform and clothing mods into FiveM is a slow, error-prone job: every
+`.ydd` and `.ytd` file has to be renamed by hand to the exact FiveM stream format,
+sorted, and wrapped in a working resource. One typo and the uniform simply won't load.
 
 **EUP Converter does that entire renaming and packaging step for you** — in its own
-clean desktop app. No command line, no manual typing, no guesswork. You drop in the
-files you extracted from a mod, and it hands you back a finished, correctly named
-FiveM resource you can drop straight into your server.
+clean desktop app. No command line, no manual typing, no guesswork. Drop in the files
+you extracted from a mod, and it hands you back a finished, correctly named FiveM
+resource you can drop straight into your server.
 
-> **Important:** EUP Converter is a renaming & packaging tool, **not** a 3D model
-> converter. You extract the clothing files from the mod once with OpenIV/CodeWalker,
-> then EUP Converter handles the rest. See [How it works](#how-it-works).
+> **Note:** EUP Converter is a renaming & packaging tool, **not** a 3D model converter.
+> You extract the clothing files from the mod once with OpenIV/CodeWalker, then EUP
+> Converter handles the rest. See [How it works](#how-it-works).
 
 ---
 
@@ -37,15 +37,17 @@ FiveM resource you can drop straight into your server.
 
 - **One-click conversion** — drop a folder, click convert, download your resource.
 - **Native desktop app** — its own window, dark UI, no browser tab, no console.
-- **Works fully offline** — nothing is uploaded anywhere; everything runs on your PC.
+- **Works fully offline** — your files never leave your PC.
 - **Smart auto-detection** — recognizes male/female peds and props automatically.
-- **Pre-scan check** — see exactly how many files were found and which names look off,
-  *before* you convert.
-- **Collision protection** — if two packs share a file name, it's flagged, never
-  silently overwritten.
+- **Pre-scan check** — see how many files were found and which names look off, *before*
+  you convert.
+- **Collision protection** — duplicate file names are flagged, never silently overwritten.
 - **Clear results** — every file shows up as *converted*, *skipped*, or *collision*,
-  with the full list. No more "nothing happened" mystery.
+  with the full list. No "nothing happened" mystery.
 - **Built-in self-check** — the app verifies its own conversion logic on every launch.
+- **License activation** — your personal code unlocks the app; tied to your purchase.
+- **Update access at a glance** — a live counter shows exactly how long your access to
+  updates lasts (or *Lifetime access*).
 - **Automatic updates** — new versions install themselves; you never re-download by hand.
 - **Ready-to-run output** — a complete `Converted_Eup` resource with a valid
   `fxmanifest.lua`, ready for `ensure`.
@@ -54,13 +56,12 @@ FiveM resource you can drop straight into your server.
 
 ## Screenshots
 
-> <img width="926" height="833" alt="image" src="https://github.com/user-attachments/assets/f362b2cc-c9c1-470a-b954-a5782b509adf" />
+<img width="926" height="833" alt="image" src="https://github.com/user-attachments/assets/6ab2c0c1-5152-4c39-a2e5-b40cdfb237f5" />
 
 
-
-| Main window | Conversion results |
-|-------------|--------------------|
-| `screenshot-1.png` | `screenshot-2.png` |
+| Main window | Conversion results | Activation |
+|-------------|--------------------|------------|
+| `screenshot-main.png` | `screenshot-results.png` | `screenshot-activation.png` |
 
 ---
 
@@ -82,29 +83,33 @@ FiveM resource you can drop straight into your server.
 
 ---
 
-## Getting started
+## How to get it
 
-### 1. Install
-Run the installer (`EUP Converter Setup x.x.x.exe`). The app installs and opens its
-own window. From now on it keeps itself up to date.
+EUP Converter is a paid tool. After purchase you receive:
+1. The installer (`EUP Converter Setup.exe`).
+2. Your personal **license code**.
 
-### 2. Prepare your files
-Extract the clothing from your mod with **OpenIV** or **CodeWalker** into a folder.
-Tip: put male and female clothing in separate folders named with `mp_m` / `mp_f`
-(or "female") so the app can tell them apart.
+Run the installer, open the app, paste your code on the activation screen once — done.
+Your access (and the update counter) is tied to that code.
 
-### 3. Convert
-- Drag the folder onto the drop area (or click to browse).
-- Review the pre-scan, then click **Convert & build resource**.
-- Click **Download Converted_Eup.zip** and save it.
 
-### 4. Add to your server
-```cfg
-# server.cfg
-ensure Converted_Eup
-```
-Drop the unzipped `Converted_Eup` folder into your `resources/`, restart, and apply
-the uniform in-game through your clothing/EUP/job menu.
+> Purchase & support: **(https://discord.gg/5VKZQ49y)**
+
+---
+
+## Using the app
+
+1. Open **EUP Converter** and activate it with your code (first launch only).
+2. Drag your extracted clothing folder onto the drop area. Use folder names with
+   `mp_m` / `mp_f` (or "female") so gender is detected.
+3. Click **Convert & build resource**.
+4. Click **Download Converted_Eup.zip** and save it.
+5. Add it to your server:
+   ```cfg
+   # server.cfg
+   ensure Converted_Eup
+   ```
+   Restart and apply the uniform in-game through your clothing/EUP/job menu.
 
 ---
 
@@ -116,65 +121,55 @@ the uniform in-game through your clothing/EUP/job menu.
 
 ---
 
-## Automatic updates
+## Updates
 
-EUP Converter updates itself. When a new version is released, your app detects it on
-launch, downloads it in the background, and applies it after a quick restart — no
-manual re-installs, ever.
+EUP Converter keeps itself up to date. When a new version is released, your app detects
+it on launch, downloads it in the background, and applies it after a quick restart — no
+manual installs. The counter in the top-right shows how long your access to updates lasts.
 
 ---
 
 ## FAQ
 
 **Does it convert 3D models?**
-No. It renames and packages files you've already extracted. The actual extraction is
-done with OpenIV/CodeWalker — that's a one-time step for any clothing mod.
+No. It renames and packages files you've already extracted. The extraction is a one-time
+step with OpenIV/CodeWalker for any clothing mod.
 
 **Will it work with any EUP pack?**
-It targets the standard freemode clothing naming. Packs with unusual names are flagged
-in the *skipped* list so you always know exactly what happened.
+It targets the standard freemode clothing naming. Packs with unusual names are listed
+under *skipped*, so you always know exactly what happened.
+
+**What happens when my update access ends?**
+The app keeps working — you simply stop receiving new updates until you renew.
 
 **Does it touch the internet?**
-Only to check for app updates. The conversion itself is 100% local — your files never
-leave your PC.
+Only to check for app updates. The conversion itself is 100% local.
 
 **Which frameworks are supported?**
-The output is standard streamed clothing, so it works with ESX, QBCore, and standalone
-servers alike.
+The output is standard streamed clothing, so it works with ESX, QBCore, and standalone.
 
 ---
 
 ## Important notes
 
-- EUP Converter does **not** grant any rights to the clothing assets you process.
-  All mod assets remain the property of their original creators and are subject to
-  **their** license terms. You are responsible for using only mods you're allowed to use.
-- The tool is provided **as is**, without warranty. Always keep a backup of your
-  source files.
+- EUP Converter does **not** grant any rights to the clothing assets you process. All
+  mod assets remain the property of their original creators and are subject to **their**
+  license terms. Only convert mods you're allowed to use.
+- Provided **as is**, without warranty. Always keep a backup of your source files.
 
 ---
 
 ## License
 
-Proprietary. **Resale and redistribution are strictly forbidden.** This software is
-licensed for use by the original purchaser only and may not be shared, re-uploaded,
-or resold. See [`LICENSE.txt`](LICENSE.txt) for full terms.
+Proprietary. **Resale and redistribution are strictly forbidden.** Licensed to the
+original purchaser only; it may not be shared, re-uploaded, or resold.
 
 ---
-
-## Buy
-
-**Price: 12€**
-
----
-
-## Support
-
-- Discord: https://discord.gg/tyeMdy7J6
-- Purchase: `make a ticket in the discord`
 
 <div align="center">
 
-**Made by T H I B L O O T N**
+**Made by THIBLOOTN**
+
+[Get access](#how-to-get-it) · [Discord](#) · [Report an issue](../../issues)
 
 </div>
