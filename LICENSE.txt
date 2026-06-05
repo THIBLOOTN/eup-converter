@@ -1,0 +1,32 @@
+EUP Converter — END USER LICENSE AGREEMENT (EULA)
+====================================================
+
+Copyright (c) THIBLOOTN. All rights reserved.
+
+1. LICENSE GRANTED
+   Upon purchase, you (the buyer) receive a personal, non-exclusive,
+   non-transferable license to USE this program for your own purposes.
+
+2. RESALE & REDISTRIBUTION ARE STRICTLY FORBIDDEN
+   You may NOT, in whole or in part:
+     - resell, rent, lease, sublicense or otherwise commercialize this program;
+     - redistribute, share, upload, publish, or hand it to any third party;
+     - make it publicly available (forums, Discord, GitHub, file hosts, etc.);
+     - present the program or its code as your own work;
+     - remove or alter this license or any copyright notice.
+   The license is tied to the original buyer only and may not be passed on.
+
+3. THIRD-PARTY ASSETS
+   This program does NOT grant any rights to clothing/EUP assets you process
+   with it. All such assets remain the property of their original creators and
+   are subject to THEIR license terms. You are solely responsible for obtaining
+   the proper rights/permission for every mod you convert, use, or distribute.
+
+4. NO WARRANTY
+   The program is provided "AS IS", without warranty of any kind. The author is
+   not liable for any damages, data loss, or issues arising from its use.
+   Always back up your source files before converting.
+
+5. TERMINATION
+   Any breach of section 2 immediately terminates this license. Violations may
+   be pursued as copyright infringement.
