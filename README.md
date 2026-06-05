@@ -164,7 +164,7 @@ or resold. See [`LICENSE.txt`](LICENSE.txt) for full terms.
 
 ## Support
 
-> *Add your support channel here.*
+** Price: 12€ **
 
 - Discord: `https://discord.gg/tyeMdy7J6`
 - Purchase: `make a ticket in the discord`
