@@ -164,13 +164,13 @@ or resold. See [`LICENSE.txt`](LICENSE.txt) for full terms.
 
 ## Support
 
-** Price: 12€ **
+**Price: 12€**
 
 - Discord: `https://discord.gg/tyeMdy7J6`
 - Purchase: `make a ticket in the discord`
 
 <div align="center">
 
-**Made by T H I B L O O T N **
+**Made by T H I B L O O T N**
 
 </div>
